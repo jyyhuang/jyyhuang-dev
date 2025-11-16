@@ -1,0 +1,37 @@
+.nav-item {
+  border-radius: 5px;
+  border: solid 2px gray;
+  background: linear-gradient(180deg, gray 0%, white 30%, gray 50%, gray 100%);
+  filter: drop-shadow(0 0.5px 0 gray) drop-shadow(0 0.5px 0 gray)
+    drop-shadow(0 0.5px 0.5px gray) drop-shadow(0.5px 0.5px 1px gray)
+    drop-shadow(-0.5px 0.5px 0 black) drop-shadow(0 0.5px 0 black)
+    drop-shadow(0 0.5px 0 black);
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  text-decoration-color: #4bbcd9;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
+}
+
+.nav-item.active {
+  border-color: #4bbcd9;
+  background: linear-gradient(
+    180deg,
+    #4bbcd9 0%,
+    white 30%,
+    #4bbcd9 50%,
+    #4bbcd9 100%
+  );
+}
+
+.nav-item.active a:hover {
+  text-decoration-color: black;
+}

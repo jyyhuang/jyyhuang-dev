@@ -2,11 +2,15 @@
 
 body {
   font-family: var(--font-zen-maru), sans-serif;
-  background-image: url("/cyber.jpg");
+  background-image: url("/blue_background.jpg");
 }
 
 @media (max-width: 680px) {
   body {
     font-size: 12px;
   }
+}
+
+main {
+  background-image: url("/pattern.jpg");
 }
