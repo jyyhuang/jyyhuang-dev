@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 
 export default function Home() {
@@ -27,13 +27,13 @@ export default function Home() {
 
         <div className="mt-6 space-y-7">
           <div>
-            <h2 className="text-xl font-black tracking-tight mb-2 text-[#4BBCD9]">
+            <h2 className="black-text-shadow text-xl font-bold tracking-tight mb-2 text-[#4BBCD9]">
               WORK
             </h2>
 
             <div className="space-y-1">
               <div className="flex justify-between items-center">
-                <div className="font-medium">
+                <div className="font-bold">
                   Software Engineer Intern at{" "}
                   <a
                     href="https://www.8by8.us/"
@@ -43,97 +43,111 @@ export default function Home() {
                   </a>
                 </div>
 
-                <p className="text-gray-600">Mar 2024 – Jun 2024</p>
+                <p className="font-medium text-gray-500">Mar 2024 – Jun 2024</p>
               </div>
-
-              <p className="italic text-gray-600">next.js, typescript</p>
-
-              <ul>
+              <ul className="font-medium">
                 <li>
-                  Worked with a small team to migrate React and JavaScript
-                  components to Next.js and TypeScript. Streamlined account
-                  creation and voter registration with secure authentication.
+                  Contributed to the migration of core features to Next.js +
+                  TypeScript, enhancing SEO and developer workflow. Also built
+                  secure voter registration endpoints and strengthened
+                  reliability with automated Jest test coverage in CI/CD.
                 </li>
               </ul>
+
+              <p className="font-medium italic text-gray-500">
+                Next.js, Typescript
+              </p>
             </div>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold tracking-tight mb-2 text-[#4BBCD9]">
+            <h2 className="black-text-shadow text-xl font-bold tracking-tight mb-2 text-[#4BBCD9]">
               PROJECTS
             </h2>
 
-            <div className="space-y-4">
-              <div>
-                <div className="flex justify-between items-center">
-                  <p className="font-medium">ezclips</p>
+            <div>
+              <div className="flex justify-between items-center">
+                <p className="font-bold">samplehub</p>
+
+                <div>
                   <a
-                    className="text-[#4BBCD9] font-medium hover:underline"
-                    href="https://github.com/jyyhuang/ezclips"
+                    className="text-[#4BBCD9] font-bold hover:underline mr-3"
+                    href="https://samplehub.jyyhuang.com/"
+                  >
+                    live
+                  </a>
+                  <a
+                    className="text-[#4BBCD9] font-bold hover:underline"
+                    href="https://github.com/cis3296f25/samplehub"
                   >
                     github
                   </a>
                 </div>
-                <p className="italic text-gray-600">
-                  react, node.js, express.js
-                </p>
               </div>
 
-              <div>
-                <div className="flex justify-between items-center">
-                  <p className="font-medium">gympal</p>
-                  <a
-                    className="text-[#4BBCD9] font-medium hover:underline"
-                    href="https://github.com/jyyhuang/GymPal"
-                  >
-                    github
-                  </a>
-                </div>
-                <p className="italic text-gray-600">
-                  react native, node.js, mongodb, express.js
-                </p>
-              </div>
+              <p className="font-medium italic text-gray-500">
+                react, node.js, express.js, postgres, google cloud platform
+              </p>
+            </div>
 
-              <div>
-                <div className="flex justify-between items-center">
-                  <p className="font-medium">samplehub</p>
-                  <a
-                    className="text-[#4BBCD9] font-medium hover:underline"
-                    href="#"
-                  >
-                    github
-                  </a>
-                </div>
-                <p className="italic text-gray-600">
-                  react, node.js, express.js, postgres, firebase
-                </p>
+            <div>
+              <div className="mt-3 flex justify-between items-center">
+                <p className="font-bold">sensofocus</p>
+                <a
+                  className="text-[#4BBCD9] font-bold hover:underline"
+                  href="https://github.com/jyyhuang/sensofocus"
+                >
+                  github
+                </a>
               </div>
+              <p className="font-medium italic text-gray-500">java, kotlin</p>
+            </div>
 
-              <div>
-                <div className="flex justify-between items-center">
-                  <p className="font-medium">joybot</p>
-                  <a
-                    className="text-[#4BBCD9] font-medium hover:underline"
-                    href="https://github.com/jyyhuang/JoyBot"
-                  >
-                    github
-                  </a>
-                </div>
-                <p className="italic text-gray-600">python</p>
+            <div>
+              <div className="mt-3 flex justify-between items-center">
+                <p className="font-bold">ezclips</p>
+                <a
+                  className="text-[#4BBCD9] font-bold hover:underline"
+                  href="https://github.com/jyyhuang/ezclips"
+                >
+                  github
+                </a>
               </div>
+              <p className="font-medium italic text-gray-500">
+                react, node.js, express.js
+              </p>
+            </div>
+
+            <div>
+              <div className="mt-3 flex justify-between items-center">
+                <p className="font-bold">gympal</p>
+                <a
+                  className="text-[#4BBCD9] font-bold hover:underline"
+                  href="https://github.com/jyyhuang/GymPal"
+                >
+                  github
+                </a>
+              </div>
+              <p className="font-medium italic text-gray-500">
+                react native, node.js, mongodb, express.js
+              </p>
+            </div>
+
+            <div>
+              <div className="mt-3 flex justify-between items-center">
+                <p className="font-bold">joybot</p>
+                <a
+                  className="text-[#4BBCD9] font-bold hover:underline"
+                  href="https://github.com/jyyhuang/JoyBot"
+                >
+                  github
+                </a>
+              </div>
+              <p className="font-medium italic text-gray-500">python</p>
             </div>
           </div>
         </div>
-
-        <ul className="pt-10 flex flex-row gap-4">
-          <a href="https://github.com/jyyhuang">
-            <Image src="/github.svg" alt="github" width={32} height={32} />
-          </a>
-
-          <a href="https://www.linkedin.com/in/joeyhuang3/">
-            <Image src="/linkedin.svg" alt="linkedin" width={32} height={32} />
-          </a>
-        </ul>
+        <Footer />
       </main>
     </div>
   );

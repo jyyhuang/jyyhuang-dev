@@ -14,3 +14,7 @@ body {
 main {
   background-image: url("/pattern.jpg");
 }
+
+.black-text-shadow {
+  text-shadow: 1px 1px 2px black;
+}

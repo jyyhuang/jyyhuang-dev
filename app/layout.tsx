@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Zen_Maru_Gothic } from "next/font/google";
 import "./globals.css";
 
@@ -23,7 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${zenMaru.variable} antialiased`}>{children}</body>
+      <body className={`${zenMaru.variable} antialiased`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
