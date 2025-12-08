@@ -1,6 +1,6 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
-import Image from "next/image";
+import GalleryGrid from "@/components/GalleryGrid";
 
 export default function About() {
   return (
@@ -26,31 +26,31 @@ export default function About() {
       >
         <Navbar />
 
-        <div className="font-bold text-xl">
-          <div className="flex justify-center">
-            <Image
-              src="/miku_pic.jpg"
-              alt="miku-pic"
-              width={200}
-              height={200}
-              style={{ borderRadius: "50%" }}
-            />
-          </div>
-
-          <div>Hi, I&apos;m Joey!</div>
-          <div className="mt-4">
-            Currenly a Computer Science major at Temple University with 4 years
-            of programming experience. I love buildings new things and tinkering
-            with my computer. I&apos;m always exploring new technologies to
-            learn and level up my programming skills.
+        <div className="font-medium text-xl tracking-tight">
+          <div className="black-text-shadow mt-8 text-2xl font-bold text-[#4BBCD9]">
+            Hi, im Joey!
           </div>
           <div className="mt-4">
-            Outside of coding, I enjoy watching basketball and anime, reading
-            manga, shopping for clothes, trying new foods, and playing video
-            games!
+            Currenly a Computer Science major at Temple University with a love
+            for computers, programming, and all things internet-esque
+            (chronically online lol). Im also an avid Linux ricer who enjoys
+            customizing and breaking, then fixing, my setup. Always have new
+            things to learn and new skills to gain!
+          </div>
+          <div className="mt-4">
+            Outside of coding, you&apos;ll probably find me watching basketball
+            or anime, reading manga, trying new food spots, or gaming :)
           </div>
 
-          <div className="mt-4">Connect with me below!</div>
+          <div className="black-text-shadow mt-4 text-[#4BBCD9] mb-4">
+            A collection of my favorites:
+          </div>
+
+          <GalleryGrid />
+
+          <div className="font-bold text-gray-500 mt-4">
+            Connect with me below ↓
+          </div>
         </div>
         <Footer />
       </main>
