@@ -48,8 +48,8 @@ export default function Home() {
               <ul className="font-medium">
                 <li>
                   Contributed to the migration of core features to Next.js +
-                  TypeScript, enhancing SEO and developer workflow. Also built
-                  secure voter registration endpoints and strengthened
+                  TypeScript, enhancing SEO and developer workflow. Also
+                  improved user authentication REST APIs and strengthened
                   reliability with automated Jest test coverage in CI/CD.
                 </li>
               </ul>
