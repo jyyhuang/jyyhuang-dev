@@ -92,6 +92,19 @@ export default function Home() {
 
             <div>
               <div className="mt-3 flex justify-between items-center">
+                <p className="font-bold">webtoonmtl</p>
+                <a
+                  className="text-[#4BBCD9] font-bold hover:underline"
+                  href="https://github.com/jyyhuang/webtoonmtl"
+                >
+                  github
+                </a>
+              </div>
+              <p className="font-medium italic text-gray-500">python</p>
+            </div>
+
+            <div>
+              <div className="mt-3 flex justify-between items-center">
                 <p className="font-bold">sensofocus</p>
                 <a
                   className="text-[#4BBCD9] font-bold hover:underline"
@@ -133,18 +146,6 @@ export default function Home() {
               </p>
             </div>
 
-            <div>
-              <div className="mt-3 flex justify-between items-center">
-                <p className="font-bold">joybot</p>
-                <a
-                  className="text-[#4BBCD9] font-bold hover:underline"
-                  href="https://github.com/jyyhuang/JoyBot"
-                >
-                  github
-                </a>
-              </div>
-              <p className="font-medium italic text-gray-500">python</p>
-            </div>
           </div>
         </div>
         <Footer />
