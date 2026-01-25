@@ -43,7 +43,7 @@ export default function Home() {
                   </a>
                 </div>
 
-                <p className="font-medium text-gray-500">Mar 2024 – Jun 2024</p>
+                <p className="font-medium text-gray-500">Feb 2024 – Jun 2024</p>
               </div>
               <ul className="font-medium">
                 <li>
@@ -75,12 +75,6 @@ export default function Home() {
                     href="https://samplehub.jyyhuang.com/"
                   >
                     live
-                  </a>
-                  <a
-                    className="text-[#4BBCD9] font-bold hover:underline"
-                    href="https://github.com/cis3296f25/samplehub"
-                  >
-                    github
                   </a>
                 </div>
               </div>
@@ -145,7 +139,6 @@ export default function Home() {
                 react native, node.js, mongodb, express.js
               </p>
             </div>
-
           </div>
         </div>
         <Footer />
