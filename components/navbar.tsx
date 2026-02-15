@@ -23,10 +23,6 @@ export default function Navbar(): JSX.Element {
           <Link href="/about">about</Link>
         </div>
 
-        <div className={`nav-item ${isActive("/contact") ? "active" : ""}`}>
-          <Link href="/contact">contact</Link>
-        </div>
-
         <div className="nav-item">
           <a
             href="/Joey_Huang_resume.pdf"

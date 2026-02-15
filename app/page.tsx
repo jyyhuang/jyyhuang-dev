@@ -45,12 +45,14 @@ export default function Home() {
 
                 <p className="font-medium text-gray-500">Feb 2024 – Jun 2024</p>
               </div>
+
+              <p className="font-medium text-gray-500 italic">Remote</p>
               <ul className="font-medium">
                 <li>
-                  Contributed to the migration of core features to Next.js +
-                  TypeScript, enhancing SEO and developer workflow. Also
-                  improved user authentication REST APIs and strengthened
-                  reliability with automated Jest test coverage in CI/CD.
+                  Contributed to the migration of core features to Next.js and
+                  TypeScript, enhancing SEO and reducing techincal debt. Also
+                  developed Jest unit tests and Storybook components to prevent
+                  software regression.
                 </li>
               </ul>
 
@@ -99,19 +101,6 @@ export default function Home() {
 
             <div>
               <div className="mt-3 flex justify-between items-center">
-                <p className="font-bold">sensofocus</p>
-                <a
-                  className="text-[#4BBCD9] font-bold hover:underline"
-                  href="https://github.com/jyyhuang/sensofocus"
-                >
-                  github
-                </a>
-              </div>
-              <p className="font-medium italic text-gray-500">java, kotlin</p>
-            </div>
-
-            <div>
-              <div className="mt-3 flex justify-between items-center">
                 <p className="font-bold">ezclips</p>
                 <a
                   className="text-[#4BBCD9] font-bold hover:underline"
@@ -138,6 +127,19 @@ export default function Home() {
               <p className="font-medium italic text-gray-500">
                 react native, node.js, mongodb, express.js
               </p>
+            </div>
+
+            <div>
+              <div className="mt-3 flex justify-between items-center">
+                <p className="font-bold">sensofocus</p>
+                <a
+                  className="text-[#4BBCD9] font-bold hover:underline"
+                  href="https://github.com/jyyhuang/sensofocus"
+                >
+                  github
+                </a>
+              </div>
+              <p className="font-medium italic text-gray-500">java, kotlin</p>
             </div>
           </div>
         </div>
